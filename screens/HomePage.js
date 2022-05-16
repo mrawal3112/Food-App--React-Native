@@ -71,7 +71,7 @@ const HomePage = ({ navigation }) => {
                 <FlatList horizontal showsHorizontalScrollIndicator={false} data={dummyData.trending} keyExtractor={item => `${item.id}`}
                     renderItem={({ item, index }) => {
                         return (
-                            <TrendingCard recipeItem={item} onPress={() => navigation.navigate('Recipe')} />
+                            <TrendingCard recipeItem={item} onPress={() => navigation.navigate('Recipe', { recipe: item })} />
                         )
                     }} />
             </View>
@@ -101,7 +101,7 @@ const HomePage = ({ navigation }) => {
                     </View>
                 } renderItem={({ item }) => {
                     return (
-                        <CategoryCard categoryItem={item} onPress={() => navigation.navigate('Recipe')} />
+                        <CategoryCard categoryItem={item} onPress={() => navigation.navigate('Recipe', { recipe: item })} />
                     )
                 }}
                 ListFooterComponent={
