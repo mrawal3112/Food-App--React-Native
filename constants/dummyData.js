@@ -7,6 +7,8 @@ const dummyData = {
             prep_time: '30 Mins',
             image: require('../assets/images/pizza/Cauliflower.jpg'),
             servings: 4,
+            authorName: 'Mohit Rawal',
+            authorImage: require('../assets/images/man.png'),
             ingredients: [
                 { name: 'Pizza Dough', icon: require('../assets/images/ingredients/pizzadough.png'), quantity: '400gm' },
                 { name: 'Pizza Sauce', icon: require('../assets/images/ingredients/sauces.png'), quantity: '50gm' },
@@ -25,6 +27,8 @@ const dummyData = {
             prep_time: '45 Mins',
             category: 'Pizza',
             servings: 4,
+            authorName: 'Mohit Rawal',
+            authorImage: require('../assets/images/man.png'),
             ingredients: [
                 { name: 'Pizza Dough', icon: require('../assets/images/ingredients/pizzadough.png'), quantity: '400gm' },
                 { name: 'Pizza Sauce', icon: require('../assets/images/ingredients/sauces.png'), quantity: '50gm' },
@@ -44,6 +48,8 @@ const dummyData = {
             prep_time: '45 Mins',
             category: 'Pizza',
             servings: 6,
+            authorName: 'Mohit Rawal',
+            authorImage: require('../assets/images/man.png'),
             ingredients: [
                 { name: 'Pizza Dough', icon: require('../assets/images/ingredients/pizzadough.png'), quantity: '400gm' },
                 { name: 'Pizza Sauce', icon: require('../assets/images/ingredients/sauces.png'), quantity: '50gm' },
@@ -65,6 +71,8 @@ const dummyData = {
             prep_time: '60 Mins',
             category: 'Pizza',
             servings: 2,
+            authorName: 'Mohit Rawal',
+            authorImage: require('../assets/images/man.png'),
             ingredients: [
                 { name: 'Pizza Dough', icon: require('../assets/images/ingredients/pizzadough.png'), quantity: '400gm' },
                 { name: 'Pizza Sauce', icon: require('../assets/images/ingredients/sauces.png'), quantity: '50gm' },
@@ -102,6 +110,8 @@ const dummyData = {
             prep_time: '40 Mins',
             category: 'Pasta',
             servings: 2,
+            authorName: 'Mohit Rawal',
+            authorImage: require('../assets/images/man.png'),
             ingredients: [
                 { name: 'Uncooked Penne Pasta', icon: require('../assets/images/ingredients/pasta.png'), quantity: '400gm' },
                 { name: 'Olive Oil', icon: require('../assets/images/ingredients/olive-oil.png'), quantity: '2-3 Tbs' },
@@ -123,6 +133,8 @@ const dummyData = {
             prep_time: '40 Mins',
             category: 'Noodles',
             servings: 4,
+            authorName: 'Mohit Rawal',
+            authorImage: require('../assets/images/man.png'),
             ingredients: [
                 { name: 'Boiled Noodles', icon: require('../assets/images/ingredients/noodles.png'), quantity: '400gm' },
                 { name: 'Olive Oil', icon: require('../assets/images/ingredients/olive-oil.png'), quantity: '2-3 Tbs' },
@@ -143,6 +155,8 @@ const dummyData = {
             prep_time: '10 Mins',
             category: 'Salad',
             servings: 2,
+            authorName: 'Mohit Rawal',
+            authorImage: require('../assets/images/man.png'),
             ingredients: [
                 { name: 'Seasonal Greens', icon: require('../assets/images/ingredients/greens.png'), quantity: '100gm' },
                 { name: 'Beans', icon: require('../assets/images/ingredients/beans.png'), quantity: '2-3 Tbs' },
@@ -156,12 +170,14 @@ const dummyData = {
                 { name: 'Chick Peas', icon: require('../assets/images/ingredients/chickpeas.png'), quantity: '2-3 Tbs' },
                 { name: 'Salsa', icon: require('../assets/images/ingredients/salsa.png'), quantity: '2 Tbs' }]
         }, {
-            image: require('../assets/images/trending/trending4.jpg'),
+            image: require('../assets/images/trending/trending4.jpeg'),
             name: "Chicken Quesadilla",
             id: 4,
             prep_time: '20 Mins',
             category: 'Quesadilla',
             servings: 1,
+            authorName: 'Mohit Rawal',
+            authorImage: require('../assets/images/man.png'),
             ingredients: [
                 { name: 'White Tortilla', icon: require('../assets/images/ingredients/tortilla.png'), quantity: '1 Piece' },
                 { name: 'Beans', icon: require('../assets/images/ingredients/beans.png'), quantity: '2-3 Tbs' },
@@ -181,6 +197,8 @@ const dummyData = {
             prep_time: '15 Mins',
             category: 'Tacos',
             servings: 1,
+            authorName: 'Mohit Rawal',
+            authorImage: require('../assets/images/man.png'),
             ingredients: [
                 { name: 'Soft/Hard Shell', icon: require('../assets/images/ingredients/taco.png'), quantity: '1 Piece' },
                 { name: 'Faijita Veggies', icon: require('../assets/images/ingredients/veggie.png'), quantity: '50gm' },
